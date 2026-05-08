@@ -11,7 +11,7 @@
     "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
-    "scrape": "pnpx tsx ./lib/scrape-quotes.ts",
+    "scrape": "pnpx tsx ./lib/scrapeQuotes.ts",
     "postinstall": "prisma generate && prisma migrate deploy"
   },
   "dependencies": {
@@ -21,7 +21,7 @@
     "dotenv": "^17.4.1",
     "geist": "^1.7.0",
     "lucide-react": "^1.8.0",
-    "next": "^16.2.3",
+    "next": "^16.2.6",
     "pg": "^8.20.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
